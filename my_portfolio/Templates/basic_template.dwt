@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../asset/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/eel8ukt.css">
+<link rel="stylesheet" href="https://use.typekit.net/eel8ukt.css">
+<link rel="stylesheet" href="https://use.typekit.net/eel8ukt.css">
+<!-- TemplateBeginEditable name="head" -->
+<style type="text/css">
+
+</style>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+    <div id="container">
+    
+  <header></header>
+  <nav>
+    <ul> <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/Blog.html">Blog</a></li>
+        <li><a href="../pages/gallery.html">Gallery</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!--Begin Floated Elements-->
+  <aside><h3>I'm a man, a son, a student, a instructor, an employee, I own a pair of glasses that I don't wear.</h3>
+	<h3>Join me as I take a look at life from different perspectives.</h3>
+    <h3>by Isaiah Brantley</h3>
+    <p>&nbsp;</p>
+  </aside>
+  <!-- TemplateBeginEditable name="main_content" -->
+  <main>
+    <h1>Page Title</h1>
+  </main>
+  <!-- TemplateEndEditable -->
+  <!--End Floated Elements-->
+  <footer>Content for New footer Tag Goes Here</footer>
+</div>
+</body>
+</html>

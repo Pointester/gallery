@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+body{
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+    font-size: 14px;
+    background-image: url(../images/twoflower.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-position: 0 0%;
+	}
+
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image: url(../images/logo_n_stuff.jpg);
+    background-position: 60% 0%;
+    margin:22px 0px 0px 0px
+}
+/*Float the Main so it shows up next to the Aside. Teduce width by 150px so they both line header*/
+main {
+    width: 1100px;
+    height: 1600px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 1280px;
+    height: 100px;
+    background-color: #646464;
+    clear: left;
+    float: right;
+}
+
+#container {
+    width: 1280px;
+    height: 1600px;
+    background-color: rgba(255,255,255,1.00);
+	margin: auto;
+}
+
+
+aside {
+    float: left;
+    background-color: #EA94F8;
+    width: 150px;
+    height: 1300px;
+}
+h1{
+    color: #DB2601;
+    font-family: politica,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #FFFFFF;
+    border-color: #000000;
+}
+
+ ol, td{
+    Background-color:rgba(255,255,255,1.00);
+    width: 600px;
+    padding:20px;
+    border: 5px solid #191919;
+    border-radius: 20px
+} 
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: neonoir, "sans-serif;";
+}
+
+.floatleft{
+    float: left;    
+}
+
+article {
+    margin-bottom: 50px;
+}
+nav {
+    width: 1280px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    background-color: #FFFFFF;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 60px;
+    font-family: neonoir, 'sans-seriff';
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+    font-size: 18px;
+}
+
+nav a:link {
+    color: #65EBFB;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #682891;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color:#65EBFB;
+    padding: 10px;
+    border-radius: 20 px;
+}
+nav a:active {
+    color: #191919;
+    text-decoration: none;
+}
+
+.submit_btn {
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #6BE7FF;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.submit_btn:hover {
+	    -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+.list{
+        border: 5px solid #191919;
+    border-radius: 20px
+}
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-left: 60px;
+}
+video {
+    width: 450px;
+    margin: auto;
+    height: 450px;
+}
+
+@media (max-width: 1024px){
+    #container{
+        width: 768px;
+    }   
+    
+    header{
+        width: 768px;
+    }
+    
+    nav{
+        width: 768px;
+    }
+    
+    main{
+        width: 598px;
+		height: 2500px;
+    }
+    
+    footer{
+        width: 768px;
+    }
+    
+    .column{
+        margin: 0px 20px 0px 25px
+    }
+    
+}
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+    #container{
+        width: 300px;
+    }   
+    
+    header{
+        width: 300px;
+        background-images: url("../images/heading_thats_cool.jpeg")
+    }
+    
+    nav{
+        width: 300px;
+        height: 250px;
+        position: static;
+    }
+    
+    main{
+    width: 300px;
+    height: auto;
+    }
+    
+    footer{
+        width: 300px;
+    }
+    
+    aside{
+        display: none;
+    }
+    
+    #container nav li{
+        display: list-item;
+        list-style-type: none;
+        float: none;
+        margin: 0px 0px 20px 0px;
+        width: 260px;
+        text-align: center;
+    }
+}

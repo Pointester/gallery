@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Through my lens</title>
+<!-- TemplateEndEditable -->
+<link href="../asset/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/eel8ukt.css">
+<link rel="stylesheet" href="https://use.typekit.net/eel8ukt.css">
+<link rel="stylesheet" href="https://use.typekit.net/eel8ukt.css">
+<style type="text/css">
+body,td,th {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+    
+  <header></header>
+  <nav>
+    <ul> <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/Blog.html">Blog</a></li>
+        <li><a href="../pages/gallery.html">Gallery</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!--Begin Floated Elements-->
+  <aside><h3>I'm a man, a son, a student, a instructor, an employee, I own a pair of glasses that I don't wear.</h3>
+	<h3>Join me as I take a look at life from different perspectives.</h3>
+    <h3>by Isaiah Brantley</h3>
+  </aside>
+  <main>
+    <article>
+      <h1>Title of Blog Post</h1>
+      <p><img src="../images/rams_superbowl.jpg" width="250" height="170" alt=""/><span style="font-family: neonoir, 'sans-serif;'"><span style="font-size: 18px">Cupcake ipsum dolor sit amet ice cream jelly-o pastry chocolate bar</span>.</span> Icing donut cupcake I love I love wafer toffee. I love sweet roll tootsie roll tart apple pie. Chocolate I love caramels sweet roll pudding cheesecake. Sweet pie jelly icing chupa chups I love. Sweet roll lollipop dessert croissant dessert ice cream caramels.</p>
+      <p>&nbsp;Chocolate cake I love dessert I love ice cream gummi bears bear claw. Oat cake chocolate bar topping marshmallow cheesecake tart lemon drops jelly. Dessert cupcake cupcake jelly wafer brownie wafer carrot cake gummi bears. Topping muffin jujubes jelly beans oat cake gummi bears toffee sweet. Bear claw apple pie oat cake toffee candy pie I love. Cheesecake chupa chups gingerbread I love shortbread lemon drops marshmallow oat cake. Chocolate chocolate sesame snaps sesame snaps lollipop brownie. I love brownie dragée bonbon marshmallow halvah ice cream fruitcake. Sweet roll jelly beans cotton candy croissant brownie.&nbsp;</p>
+    </article>
+	  
+    <article>
+      <h1>Title of Blog Post</h1>
+      <p><img src="../images/wood-violet.jpg" alt="" width="250" height="170" class="floatleft"/><span style="font-family: neonoir, 'sans-serif;'; font-size: 18px;">Cupcake ipsum dolor sit amet ice cream jelly-o pastry chocolate bar.</span> Icing donut cupcake I love I love wafer toffee. I love sweet roll tootsie roll tart apple pie. Chocolate I love caramels sweet roll pudding cheesecake. Sweet pie jelly icing chupa chups I love. Sweet roll lollipop dessert croissant dessert ice cream caramels.</p>
+      <p>&nbsp;Chocolate cake I love dessert I love ice cream gummi bears bear claw. Oat cake chocolate bar topping marshmallow cheesecake tart lemon drops jelly. Dessert cupcake cupcake jelly wafer brownie wafer carrot cake gummi bears. Topping muffin jujubes jelly beans oat cake gummi bears toffee sweet. Bear claw apple pie oat cake toffee candy pie I love. Cheesecake chupa chups gingerbread I love shortbread lemon drops marshmallow oat cake. Chocolate chocolate sesame snaps sesame snaps lollipop brownie. I love brownie dragée bonbon marshmallow halvah ice cream fruitcake. Sweet roll jelly beans cotton candy croissant brownie.&nbsp;</p>
+    </article>
+	  
+    <article>
+      <h1>Title of Blog Post</h1>
+      <p><img src="../images/massachuesetts_state_flower.jpg" width="250" height="170" alt=""/><span style="font-family: neonoir, 'sans-serif;'; font-size: 18px;">Cupcake ipsum dolor sit amet ice cream jelly-o pastry chocolate bar.</span> Icing donut cupcake I love I love wafer toffee. I love sweet roll tootsie roll tart apple pie. Chocolate I love caramels sweet roll pudding cheesecake. Sweet pie jelly icing chupa chups I love. Sweet roll lollipop dessert croissant dessert ice cream caramels.</p>
+      <p>&nbsp;Chocolate cake I love dessert I love ice cream gummi bears bear claw. Oat cake chocolate bar topping marshmallow cheesecake tart lemon drops jelly. Dessert cupcake cupcake jelly wafer brownie wafer carrot cake gummi bears.cum Topping muffin jujubes jelly beans oat cake gummi bears toffee sweet. Bear claw apple pie oat cake toffee candy pie I love. Cheesecake chupa chups gingerbread I love shortbread lemon drops marshmallow oat cake. Chocolate chocolate sesame snaps sesame snaps lollipop brownie. I love brownie dragée bonbon marshmallow halvah ice cream fruitcake. Sweet roll jelly beans cotton candy croissant brownie.&nbsp;</p>
+    </article>
+  </main>
+  <!--End Floated Elements-->
+  <footer>Content for New footer Tag Goes Here</footer>
+</div>
+</body>
+</html>
